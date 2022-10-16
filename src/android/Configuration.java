@@ -63,7 +63,7 @@ public class Configuration {
     }
 
     public final JSONObject getController() {
-        return config.optJSONObject("controller");
+        return config.optJSONObject("controller2");
     }
 
     public int getHideTimeout() {
